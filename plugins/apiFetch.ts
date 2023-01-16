@@ -8,7 +8,7 @@ export default defineNuxtPlugin(nuxtApp => {
         'apiFetch',
         $fetch.create({
             // baseURL: config.API_BASE_URL,
-            baseURL: 'http://localhost:8000/api',
+            baseURL: 'http://localhost/api',
             credentials: 'include',
             headers: {
                 Accept: 'application/json',
